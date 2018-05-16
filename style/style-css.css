@@ -1,0 +1,255 @@
+
+
+
+
+.title{
+font-family: Elephant;
+color: red;
+text-align: center;
+font-size: 80px;
+}
+
+.page-links a{
+	color: rgb(255, 255, 255);
+}
+
+#joke-photo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 300px;
+}
+ 
+
+
+body{
+background-color: rgb(165, 148, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.stantext{
+text-align: justify;
+color: black;
+font-family: Baskerville Old Face;
+font-size: 20px;
+}
+
+#about_head{
+color: aliceblue;
+    font-family: Franklin Gothic Heavy;
+font-size: 25px;
+    text-align: center;
+}
+
+       @font-face {
+    font-family: Elephant;
+    src url(https://www.fonts.com/font/carter-and-cone/elephant?QueryFontType=Web&src=GoogleWebFonts);
+}
+
+@font-face{
+    font-family: Baskerville Old Face;
+    src url(https://www.fonts.com/font/urw/baskerville-old-face?QueryFontType=Web&src=GoogleWebFonts);
+}
+
+@font-face{
+    font-family: Franklin Gothic Heavy;
+    src url(https://www.fonts.com/font/urw/franklin-gothic/heavy);
+}
+
+@font-face{
+   font-family: Cooper Black;
+   src url(http://www.fontbros.com/families/cooper-black/styles/regular?src=GoogleFonts);
+}
+
+#home_bookworms{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ALERT_heading{
+    font-size: 25px;
+    font-family: Impact;
+    color: darkblue;
+    text-align: center;
+}
+
+#SPOILER_ALERT{
+    font-size: 50px;
+    font-family: Bodoni MT Black;
+    color:darkred;
+    text-align: center;
+}
+
+.r_title{
+    font-family: Elephant;
+    font-size: 50px;
+    color: rgba(255, 255, 255);
+    text-align: center;
+}
+
+@font-face{
+    font-family: Monotype Engravers
+src url(https://www.fonts.com/font/monotype/monotype-engravers?QueryFontType=Web&src=GoogleWebFonts)
+}
+
+.header{
+	color: rgb(0, 222, 149);
+		font-size: 25px;
+	font-family: Lucida Fax;
+}
+
+.qlist{
+       text-align: justify;
+    font-family: Lucida Fax;
+    font-size: 25px;
+    color: rgb(0, 122, 35);
+}
+
+@font-face{
+	font-family: Lucida Fax
+		src url(https://www.fonts.com/font/monotype/lucida-fax?QueryFontType=Web&src=GoogleWebFonts)
+}
+
+.rbox{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
+}
+
+.r_questions{
+    font-family: Franklin Gothic Heavy;
+    font-size: 25px;
+    color: rgb(0, 70, 0);
+text-align: center;
+}
+
+.mark_10{
+    text-align: center;
+    font-family:Cooper Black;
+    color: rgb(255, 32, 255);
+    font-size: 35px;
+}
+
+index_link{
+    text-decoration:none;
+}
+
+.rbox_content{
+    text-align: justify;
+color: black;
+font-family: Baskerville Old Face;
+font-size: 16px;
+    padding-left: 3px;
+padding-right: 3px;
+}
+
+
+
+
+
+/* Here I have grouped the rules for the navbar together, you should do the same for other related areas of page layout. This makes finding and indeed fixing faults easier*/
+
+
+
+
+.full-nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palegoldenrod;
+	top: 0px;
+	position: sticky;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: forestgreen;
+    height: 20px;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: palegoldenrod;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: forestgreen;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: centre;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active{
+    background-color: black;
+}
+
+navspace:active{
+    background-color: black;
+}
+*/
